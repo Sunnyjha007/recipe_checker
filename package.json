@@ -1,0 +1,21 @@
+{
+  "name": "recipe_app",
+  "version": "1.0.0",
+  "description": "recipe_application",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./final"
+  },
+  "author": "sunny jha",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "core-js": "^3.27.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
